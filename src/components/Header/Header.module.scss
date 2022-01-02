@@ -1,0 +1,41 @@
+.header {
+}
+
+$blue: #0ab6c9;
+$yellow: #fffb00;
+
+.intro {
+  font-weight: bold;
+  font-size: 14vw;
+  position: absolute;
+  top: 15%;
+  left: 0.4em;
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+  filter: blur(0.7px);
+}
+
+.backgroundImage {
+  padding: 100px;
+  background-color: $blue;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thegreatcoursesdaily.com%2Fwp-content%2Fuploads%2F2020%2F07%2FAncient-Greece_Relaxing-Style-of-Life-in-Athens_QBS_Thumbnail.jpg&f=1&nofb=1");
+  background-size: cover;
+  height: 120vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(9px);
+  overflow: hidden;
+  transform: scale(1.1);
+  z-index: -1;
+ 
+}
+
+.hello {
+  color: $blue;
+}
+.name {
+  color: $yellow;
+}
