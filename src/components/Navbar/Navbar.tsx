@@ -1,22 +1,25 @@
 import React from "react";
 
 import styles from "./Navbar.module.scss";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
+
 export const Navbar = () => {
   return (
-    <BrowserRouter>
+
       <div className={styles.navbar}>
-        <Link to="/about">
+    
+        <NavLink to="/about">
           <button className={styles.button}>ABOUT ME</button>
-        </Link>  
-        <Link to="/projects">
+        </NavLink>  
+        <NavLink to="/projects">
           <button className={styles.button}>PROJECTS</button>
-        </Link>  
-        <Link to="/contacts">
+        </NavLink>  
+        <NavLink to="/contacts">
           <button className={styles.button}>CONTACTS</button>
-        </Link>  
+        </NavLink>  
+      
       </div>
-    </BrowserRouter>
+    
   );
 };
 

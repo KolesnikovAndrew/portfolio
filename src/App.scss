@@ -1,7 +1,21 @@
+$blue: #0ab6c9;
+$yellow: #fffb00;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
   font-family: "Roboto Mono", monospace;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.content {
+  background-color: white;
+  padding: 10px;
+  height: 100%;
+
+  text-align: center;
 }

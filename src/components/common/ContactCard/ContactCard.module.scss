@@ -1,0 +1,30 @@
+$blue: #0ab6c9;
+$yellow: #fffb00;
+
+.contactCard {
+  background-color: $blue;
+  display: flex;
+  width: 100%;
+  margin-top: 1em;
+  align-items: center;
+  height: 100px;
+  border-radius: 15px;
+}
+.contactIcon {
+  font-size: 70px;
+  color: white;
+  border-right: 4px solid white;
+  padding-right: 15px;
+  padding-left: 10px;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin-left: 5px;
+
+  font-size: 1.1em;
+  color: white;
+}
