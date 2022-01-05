@@ -10,7 +10,7 @@ export const SkillCard: FC<SkillCardProps> = ({icon, text}) => {
   return (
     <div className={styles.skillCard}>
        {icon}
-       <h1>{text}</h1>
+       <h1 className={styles.skillName}>{text}</h1>
     </div>
   )
 }
