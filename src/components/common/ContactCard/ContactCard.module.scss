@@ -21,6 +21,9 @@ $yellow: #fffb00;
   justify-content: center;
   align-items: center;
 }
+.contactIcon:hover {
+  color: $yellow;
+}
 
 .name {
   margin-left: 5px;

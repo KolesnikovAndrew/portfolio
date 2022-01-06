@@ -1,6 +1,10 @@
 $blue: #0ab6c9;
 $yellow: #fffb00;
 
+.contacts {
+  padding: 20px;
+}
+
 .emailForm {
   background-color: rgb(25, 190, 219);
   padding: 20px;
@@ -10,16 +14,39 @@ $yellow: #fffb00;
   color: white;
   font-size: 1.2em;
 }
-h1 {
+h1,
+h2 {
+  margin-top: 20px;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 2em;
   padding-bottom: 20px;
+  color: rgb(43, 40, 40);
+}
+h1 {
+  margin-top: 5vw;
+}
+h2 {
+  color: whitesmoke;
 }
 .message,
 .name {
   display: flex;
   flex-direction: column;
 }
+.name input {
+  height: 2em;
+}
+input,
+textarea {
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 4em;
+}
+
 .submit {
   padding: 10px;
   border: none;
@@ -30,6 +57,29 @@ h1 {
   font-weight: bold;
   font-size: 0.9em;
 }
+.submit:hover {
+  background-color: $yellow;
+  color: black;
+}
 
-textarea {
+@media (min-width: 800px) {
+  .contacts {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .emailForm {
+    width: 40%;
+    height: 400px;
+  }
+  .contactIcons {
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
 }

@@ -1,0 +1,13 @@
+$blue: #0ab6c9;
+$yellow: #fffb00;
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: $blue;
+}
+h1 {
+  color: whitesmoke;
+}

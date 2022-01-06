@@ -38,3 +38,19 @@ $yellow: #fffb00;
 .name {
   color: $yellow;
 }
+
+/* PC version */
+@media (min-width: 800px) {
+  .backgroundImage {
+    height: 400px;
+  }
+  .intro {
+    font-size: 4vw;
+    top: 20px;
+    border: none;
+    left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

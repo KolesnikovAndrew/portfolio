@@ -7,9 +7,10 @@ import { BiHeading } from "react-icons/bi";
 import ContactCard from "../../common/ContactCard/ContactCard";
 
 export function Contacts() {
-  return (
-    <div>
-      <h1>Contacts</h1>
+  return (<div>
+    <h1>Contacts</h1>
+    <div className={styles.contacts}>
+      
       <div className={styles.contactIcons}>
         <ContactCard
           name="KolesnikovAndrew"
@@ -24,7 +25,7 @@ export function Contacts() {
         />
       </div>
       <div className={styles.emailForm}>
-        <h1>Send me an email!</h1>
+        <h2>Send me an email!</h2>
         <form
           action="mailto:kolesnikov6@inbox.lv"
           method="POST"
@@ -46,6 +47,7 @@ export function Contacts() {
           </label>
         </form>
       </div>
+    </div>
     </div>
   );
 }

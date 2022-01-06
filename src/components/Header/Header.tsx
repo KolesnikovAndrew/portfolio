@@ -5,7 +5,7 @@ export const Header = () => {
     <div className={styles.header}>
       <div className={styles.backgroundImage}></div>
       <div className={styles.intro}>
-        <span className={styles.hello}>Hello</span>,
+        <span className={styles.hello}>Hello</span>
         <br /> I am
         <br />
         <span className={styles.name}>
