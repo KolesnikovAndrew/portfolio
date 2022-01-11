@@ -2,7 +2,7 @@ $blue: #0ab6c9;
 $yellow: #fffb00;
 
 .projectImage {
-  width: 300px;
+  width: 80%;
 }
 .projectDescription {
   text-align: justify;
@@ -11,19 +11,20 @@ $yellow: #fffb00;
 .project {
   padding: 20px;
   background-color: whitesmoke;
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: black;
   border-radius: 20px;
+  margin-bottom: 40px;
 }
 
 hr {
   margin-top: 10px;
   height: 2px;
-  width: 110%;
+
   background-color: #0ab6c9;
   border: none;
 }
@@ -36,4 +37,21 @@ hr {
 .techs {
   margin-top: 10px;
   text-align: left;
+}
+
+@media (min-width: 800px) {
+  .project {
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+  }
+
+  .projectImage {
+    width: 100%;
+  }
+  .info {
+    padding: 20px;
+    margin-left: 10px;
+  }
 }

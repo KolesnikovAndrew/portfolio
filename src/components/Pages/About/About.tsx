@@ -6,7 +6,7 @@ import {DiJavascript, DiReact, } from 'react-icons/di'
 import SkillCard from '../../common/SkillCard/SkillCard'
 export function About() {
   return (
-    <div>
+    <div className={styles.about}>
       <div className={styles.content}>
         
 
@@ -24,9 +24,9 @@ export function About() {
           <br/><br/>
           I am junior front-end developer with ambition and although I don't have much experience in development yet, I really want to get it.
           <br/><br/>
-          I can speak English and Russian fluently. I know Latvian well, and French at a basic level. I like crisps, pizza and cola zero. My favorite band is Rammstein. Favorite movie are Lord of the Rings. Favorite series are The Sopranos, South Park and Arcane. As well as I like to play videogames, my favorite are: TES 3 Morrowind, TES 5 Skyrim and Total War: Warhammer 2. Finally, my favorite author is Fyodor Dostoevsky.
+          I can speak English and Russian fluently. I know Latvian well, and French at a basic level.  My favorite band is Rammstein. 
           <br/><br/>
-          I have skills that can be useful in any company, I am quick to learn and can understand complex concepts. I like to deconstruct a complex problem into smaller ones and solve them. 
+          I have skills that can be useful in any company, am quick to learn and can understand complex concepts. I like to deconstruct a complex problem into smaller ones and solve them. 
           <br/>
 
         </p>

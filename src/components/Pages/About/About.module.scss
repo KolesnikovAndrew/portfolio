@@ -7,33 +7,19 @@ $yellow: #fffb00;
 }
 
 .cityImg {
-  width: 90%;
+  width: 80%;
 
   margin-top: 20px;
-  border-radius: 15px;
-}
-
-.reactLogo {
-  width: 100%;
-  height: 300px;
-  padding: 0;
-  margin: 0;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.reactLogo img {
-  width: 140px;
-  height: 140px;
+  border-radius: 10px;
 }
 
 .bio {
   text-align: justify;
-  padding: 20px;
+  padding: 20px 40px 20px 40px;
 }
 .skills {
   margin-top: 40px;
+  padding: 0 40px 20px 40px;
 }
 .skillList {
   display: flex;
@@ -42,4 +28,15 @@ $yellow: #fffb00;
   flex-wrap: wrap;
   color: $blue;
   padding: 10px;
+}
+
+@media (min-width: 800px) {
+  .about {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
 }

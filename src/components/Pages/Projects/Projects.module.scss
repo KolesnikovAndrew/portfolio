@@ -8,6 +8,9 @@ $yellow: #fffb00;
   gap: 20px;
   background-color: $blue;
 }
-h1 {
+.projects h1 {
   color: whitesmoke;
 }
+
+@media (min-width: 800px) {
+} ;
