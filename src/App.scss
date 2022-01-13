@@ -1,12 +1,10 @@
-$blue: #0ab6c9;
-$yellow: #fffb00;
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Oswald&family=Roboto+Mono&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 body,
 html {
@@ -18,4 +16,8 @@ html {
   height: 100%;
 
   text-align: center;
+}
+
+.AppHeader {
+  overflow: hidden;
 }

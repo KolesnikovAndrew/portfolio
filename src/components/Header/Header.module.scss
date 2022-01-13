@@ -33,20 +33,20 @@ $yellow: #fffb00;
 }
 
 .hello {
-  color: $blue;
+  color: whitesmoke;
 }
 .name {
-  color: $yellow;
+  color: $blue;
 }
 
 /* PC version */
 @media (min-width: 800px) {
   .backgroundImage {
-    height: 400px;
+    height: 600px;
   }
   .intro {
     font-size: 4vw;
-    top: 20px;
+    top: 20%;
     border: none;
     left: 30%;
     display: flex;

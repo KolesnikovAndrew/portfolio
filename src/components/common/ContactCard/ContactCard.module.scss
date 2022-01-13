@@ -20,9 +20,15 @@ $yellow: #fffb00;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 1s;
 }
-.contactIcon:hover {
-  color: $yellow;
+
+.contactCard {
+  &:hover {
+    .contactIcon {
+      background-color: whitesmoke;
+    }
+  }
 }
 
 .name {

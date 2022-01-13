@@ -11,8 +11,11 @@ function App() {
   return (
     
       <div className="App">
-        <header className="App-header">
-            <Header/>
+        <header className="AppHeader">
+            <div>
+             <Header/>
+            </div>
+           
             <Navbar/>
             <div className='content'>
               <Routes>

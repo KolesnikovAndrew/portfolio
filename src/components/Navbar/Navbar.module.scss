@@ -44,5 +44,10 @@ $yellow: #fffb00;
   .button {
     width: 100%;
     background-color: transparent;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  .button:hover {
+    font-size: 22px;
   }
 }

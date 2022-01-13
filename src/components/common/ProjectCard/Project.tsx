@@ -12,7 +12,9 @@ export const Project: FC<ProjectProps> = ({image, description, name, techs}) => 
   return (
     <div className={styles.project}>
        <div >
-         <img className={styles.projectImage} src={image}></img>
+         <div className={styles.projectImage}>
+
+         </div>    
        </div>
        <div className={styles.info}>
           <div className={styles.name}>
