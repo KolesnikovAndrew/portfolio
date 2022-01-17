@@ -1,6 +1,6 @@
-{ 
-  "homepage": "https://kolesnikovandrew.github.io/",
-  "name": "my-app",
+{
+  "homepage": "https://kolesnikovandrew.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +22,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +46,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "My portfolio. In this project I used SCSS, React JS and Typescript.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KolesnikovAndrew/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KolesnikovAndrew/portfolio/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
