@@ -25,14 +25,6 @@ $yellow: #fffb00;
   transition: 1s;
 }
 
-.contactCard {
-  &:hover {
-    .contactIcon {
-      background-color: whitesmoke;
-    }
-  }
-}
-
 .name {
   margin-left: 5px;
 
