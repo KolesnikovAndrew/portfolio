@@ -5,9 +5,14 @@
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  gap: 5px;
+  gap: 10px;
+  transition: 0.1s;
 }
 .skillName {
   font-size: 13px;
   color: rgb(68, 66, 66);
+  margin: 0;
+}
+.skillCard:hover {
+  color: rgb(233, 19, 108);
 }

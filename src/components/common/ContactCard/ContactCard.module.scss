@@ -6,9 +6,11 @@ $yellow: #fffb00;
   display: flex;
   width: 100%;
   margin-top: 1em;
+
   align-items: center;
   height: 100px;
   border-radius: 15px;
+  min-width: 300px;
 }
 .contactIcon {
   font-size: 70px;

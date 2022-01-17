@@ -7,7 +7,7 @@ import { BiHeading } from "react-icons/bi";
 import ContactCard from "../../common/ContactCard/ContactCard";
 
 export function Contacts() {
-  return (<div>
+  return (<div className={styles.contactsContainer}>
     <h1>Contacts</h1>
     <div className={styles.contacts}>
       

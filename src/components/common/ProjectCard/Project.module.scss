@@ -32,6 +32,7 @@ hr {
   font-weight: bold;
   font-size: 2em;
   padding: 5px;
+  text-align: center;
 }
 .techs {
   margin-top: 10px;
@@ -57,13 +58,20 @@ hr {
     height: 900px;
     background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.hubbado.com%2Fcontent%2Fimages%2F2020%2F01%2Fprojectmanager.png&f=1&nofb=1");
     border-radius: 0;
-    background-position: -200px;
 
+    transition: 0.5s;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: 20px;
+    filter: blur(4px);
+  }
+  .projectImage:hover {
+    filter: blur(0px);
+    width: 56vw;
   }
 
   .info {
-    margin-right: 50px;
+    padding: 20px;
   }
   .name {
     padding: 20px;

@@ -10,10 +10,16 @@ $yellow: #fffb00;
 }
 .projects h1 {
   color: whitesmoke;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
 }
 
 @media (min-width: 800px) {
   .projects {
     gap: 5px;
   }
-} ;
+  .projects {
+    background-color: whitesmoke;
+  }
+}
