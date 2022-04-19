@@ -23,7 +23,10 @@ export function About() {
             </div>
             <label>Newest technologies</label>
           </div>
-          <Feature image={Optimization} text="Optimized"/>
+          <div className={styles.optimization}>
+            <Feature image={Optimization} text="Optimized"/>
+          </div>
+          
           <Feature image={Accuracy} text="Pixel Perfect"/>
          
         </div>
@@ -40,8 +43,8 @@ export function About() {
             I can speak English and Russian fluently. I know Latvian well, and French at a basic level.  My favorite band is Rammstein. 
             <br/><br/>
             I have skills that can be useful in any company, am quick to learn and can understand complex concepts. I like to deconstruct a complex problem into smaller ones and solve them. 
-            <br/>
-
+            <br/><br/>
+            I like minimalist designs, with little bits of animation. 
           </p>
       </div> 
       </div>

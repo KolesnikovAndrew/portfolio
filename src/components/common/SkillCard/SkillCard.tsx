@@ -9,7 +9,7 @@ export interface SkillCardProps {
 export const SkillCard: FC<SkillCardProps> = ({icon, text}) => {
   return (
     <div className={styles.skillCard}>
-       {icon}
+       <span className={styles.icon}>{icon}</span>
        <h2 className={styles.skillName}>{text}</h2>
     </div>
   )

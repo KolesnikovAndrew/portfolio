@@ -5,8 +5,23 @@ import { MdOutlineEmail } from "react-icons/md";
 import { FaCity } from "react-icons/fa";
 import { BiHeading } from "react-icons/bi";
 import ContactCard from "../../common/ContactCard/ContactCard";
+import emailjs from "emailjs-com"
 
 export function Contacts() {
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) =>{
+     e.preventDefault();
+    
+    emailjs.sendForm('service_0edu1xd', 'template_eu2bve8', e.currentTarget, 'user_HuvfZ5vMV0Ed1fL3pLIOb')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log("ERROR"+error.text);
+      });
+    e.currentTarget.reset()
+  }
+
+
   return (<div className={styles.contactsContainer}>
     <h1>Contacts</h1>
     <div className={styles.contacts}>
@@ -27,16 +42,13 @@ export function Contacts() {
       <div className={styles.emailForm}>
         <h2>Send me an email!</h2>
         <form
-          action="mailto:kolesnikov6@inbox.lv"
-          method="POST"
-          encType="multipart/form-data"
-          name="EmailForm"
+          onSubmit={sendEmail}
         >
           <label className={styles.name}>
-            Name: <input type="text" name="ContactName"></input>
+            Name: <input type="text" name="from_name"></input>
           </label>
           <label className={styles.message}>
-            Message: <textarea name="ContactMessage"></textarea>
+            Message: <textarea name="message"></textarea>
           </label>
           <label>
             <input
