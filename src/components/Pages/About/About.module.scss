@@ -50,8 +50,16 @@ $yellow: #fffb00;
   justify-content: center;
 }
 
+.optimization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .optimization img {
-  width: 400px;
+  width: 155px;
+  animation: optimized-animation 3s infinite;
 }
 
 @media (min-width: 800px) {
@@ -96,7 +104,27 @@ $yellow: #fffb00;
   0% {
     transform: rotate(0deg);
   }
+  
   100% {
     transform: rotate(359deg);
+  }
+}
+
+@keyframes optimized-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(100deg);
+  }
+  
+
+
+  75% {
+    transform: rotate(-80deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
   }
 }

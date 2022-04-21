@@ -24,7 +24,8 @@ export function About() {
             <label>Newest technologies</label>
           </div>
           <div className={styles.optimization}>
-            <Feature image={Optimization} text="Optimized"/>
+            <Feature image={Optimization} text=""/>
+             <label>Optimized</label>
           </div>
           
           <Feature image={Accuracy} text="Pixel Perfect"/>
