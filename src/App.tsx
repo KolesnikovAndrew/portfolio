@@ -3,9 +3,9 @@ import styles from './App.module.scss';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
-import About from './components/Pages/About/About';
-import Projects from './components/Pages/Projects/Projects';
-import Contacts from './components/Pages/Contacts/Contacts';
+import About from './Pages/About/About';
+import Projects from './Pages/Projects/Projects';
+import Contacts from './Pages/Contacts/Contacts';
 import Footer from './components/Footer/Footer'
 
 function App() {

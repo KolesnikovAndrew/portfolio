@@ -4,7 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaCity } from "react-icons/fa";
 import { BiHeading } from "react-icons/bi";
-import ContactCard from "../../common/ContactCard/ContactCard";
+import ContactCard from "../../components/common/ContactCard/ContactCard";
 import emailjs from "emailjs-com"
 
 export function Contacts() {
