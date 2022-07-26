@@ -1,9 +1,10 @@
 $blue: #0ab6c9;
 $red: #9c3434;
 .demoButton {
-  color: white;
+  color: black;
   font-weight: bold;
-  background-image: linear-gradient(to top right, #2b2b2b, #9c3434);
+  background-color: white;
+  border: 2px solid $blue;
   border-radius: 14px;
   display: flex;
   text-decoration: none;
@@ -14,29 +15,31 @@ $red: #9c3434;
   align-items: center;
   gap: 10px;
   transition: 1s;
-  font-size: large;
+  font-size: 15px;
+  width: 200px;
+  height: 66px;
 }
 
 .demoButton:hover {
   transition: 1s;
   transform: scale(1.1);
-  animation: gradient-hover-animation 0.4s infinite;
+  animation: gradient-hover-animation 0.6s infinite;
 }
 
 @keyframes gradient-hover-animation {
   0% {
-    background-image: linear-gradient(to top right, black, $red);
+    background-image: linear-gradient(to top right, $blue, white);
   }
   25% {
-    background-image: linear-gradient(to top right, black, $red);
+    background-image: linear-gradient(to top right, white, $blue);
   }
   50% {
-    background-image: linear-gradient(to top right, $red, black, $red);
+    background-image: linear-gradient(to top right, $blue, white, $blue);
   }
   75% {
-    background-image: linear-gradient(to top right, $red, black);
+    background-image: linear-gradient(to top right, white, $blue);
   }
   100% {
-    background-image: linear-gradient(to top right, $red, black);
+    background-image: linear-gradient(to top right, $blue, white);
   }
 }

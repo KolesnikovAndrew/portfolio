@@ -37,13 +37,16 @@ export const Project: FC<ProjectProps> = ({image, description, name, techs, gith
         <div className={styles.techs}>
             <p>Technologies used in this project: {techs}</p>
         </div>
+        <div className={styles.links}>
         <a className={styles.githubLinkContainer} href={githubLink}>
             <div className={styles.gitIcon}><AiFillGithub/></div>
             <p>Check out the code!</p>
         </a>
         <div>
-          {demo && <DemoButton demo={demo}/> || ""}
+          {demo && <DemoButton demo={demo}/> }
         </div>
+        </div>
+        
        </div>
        
     </div>
