@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.78e72c7c.css",
-    "main.js": "/portfolio/static/js/main.9143c2c7.js",
+    "main.css": "/portfolio/static/css/main.7e38df4b.css",
+    "main.js": "/portfolio/static/js/main.2e653432.js",
     "static/js/787.9b9c0edf.chunk.js": "/portfolio/static/js/787.9b9c0edf.chunk.js",
     "static/media/GamesStoreImg.png": "/portfolio/static/media/GamesStoreImg.aa807b5be515b11a8d16.png",
     "static/media/formValidation.png": "/portfolio/static/media/formValidation.f333a6fb7182359eff72.png",
     "static/media/react.png": "/portfolio/static/media/react.da363b94e54e6deee792.png",
     "static/media/icons8-accuracy.gif": "/portfolio/static/media/icons8-accuracy.0c26745038a91d2b696f.gif",
     "static/media/demo-soc.png": "/portfolio/static/media/demo-soc.254d00594ffddf411b47.png",
+    "static/media/GetPost.png": "/portfolio/static/media/GetPost.d904cda6b7daca28024d.png",
     "static/media/icons8-rotation.gif": "/portfolio/static/media/icons8-rotation.d2868eff2acb658ad4ce.gif",
     "static/media/optimization.png": "/portfolio/static/media/optimization.f39df00358b37f68f369.png",
     "static/media/fetchTable.png": "/portfolio/static/media/fetchTable.6daa14801d0f9a7bcfad.png",
     "index.html": "/portfolio/index.html",
-    "main.78e72c7c.css.map": "/portfolio/static/css/main.78e72c7c.css.map",
-    "main.9143c2c7.js.map": "/portfolio/static/js/main.9143c2c7.js.map",
+    "main.7e38df4b.css.map": "/portfolio/static/css/main.7e38df4b.css.map",
+    "main.2e653432.js.map": "/portfolio/static/js/main.2e653432.js.map",
     "787.9b9c0edf.chunk.js.map": "/portfolio/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78e72c7c.css",
-    "static/js/main.9143c2c7.js"
+    "static/css/main.7e38df4b.css",
+    "static/js/main.2e653432.js"
   ]
 }
