@@ -1,5 +1,5 @@
 $blue: #0ab6c9;
-$yellow: #fffb00;
+$yellow: #e4e003;
 .projects {
   display: flex;
   flex-direction: column;
@@ -7,16 +7,62 @@ $yellow: #fffb00;
   align-items: center;
   gap: 20px;
   background-color: $blue;
+  z-index: 1;
 }
 .projects h1 {
-  color: whitesmoke;
+  color: rgb(68, 66, 66);
   margin: 0;
   padding: 20px;
   width: 100%;
+  background-color: transparent !important;
+}
+
+.techSort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 15px;
+  padding: 35px;
+  width: 100%;
+}
+
+.techs {
+  display: flex;
+  color: rgb(68, 66, 66);
+  gap: 15px;
+  z-index: 1;
+}
+
+.bgTriangle {
+  display: flex;
+  gap: 15px;
+  gap: 0px;
+  position: relative;
+  z-index: 0;
+}
+
+.bgTriangleLeft {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(at 50% 50%, $yellow 135deg, transparent 0deg, transparent 315deg, $yellow 0deg);
+  text-align: right;
+
+  .techs {
+    justify-content: flex-end;
+  }
+}
+
+.bgTriangleRight {
+  width: 400px;
+  height: 400px;
+  background: conic-gradient(at 50% 50%, $yellow 45deg, transparent 0deg, transparent 225deg, $yellow 0deg);
 }
 
 @media (min-width: 800px) {
   .projects {
     gap: 50px;
+    z-index: 1;
   }
 }
