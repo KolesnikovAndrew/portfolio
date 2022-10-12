@@ -48,7 +48,10 @@ $yellow: #e4e003;
   height: 400px;
   background: conic-gradient(at 50% 50%, $yellow 135deg, transparent 0deg, transparent 315deg, $yellow 0deg);
   text-align: right;
-
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 16px;
   .techs {
     justify-content: flex-end;
   }
@@ -58,6 +61,10 @@ $yellow: #e4e003;
   width: 400px;
   height: 400px;
   background: conic-gradient(at 50% 50%, $yellow 45deg, transparent 0deg, transparent 225deg, $yellow 0deg);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 16px;
 }
 
 @media (min-width: 800px) {
