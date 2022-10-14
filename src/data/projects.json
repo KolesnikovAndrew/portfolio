@@ -1,0 +1,34 @@
+[
+  {
+    "image": "https://i.ibb.co/BLnydnf/form-Validation.png",
+    "description": "The user is obliged to fill in the field with the correct e-mail and check the box that he agrees with the tos. Otherwise, the user receives an error message. If the form is filled in correctly, the user receives a message about the successful completion of the form. ",
+    "name": "Validation of the form",
+    "techs": ["React", "CSS", "HTML", "React Hook Form"],
+    "githubLink": "https://github.com/KolesnikovAndrew/magebit-test-task",
+    "demo": null
+  },
+  {
+    "image": "https://i.ibb.co/K2j79QY/demo-soc.png",
+    "description": "This is a demo version of the social network. It is my first project written in React. For the API I used social-network.samuraijs.com free version. For state management I used Redux.",
+    "name": "Demo Social Network",
+    "techs": ["React JS", "Redux", "CSS", "HTML", "JS"],
+    "githubLink": "https://github.com/KolesnikovAndrew/demo-social-network",
+    "demo": null
+  },
+  {
+    "image": "https://i.ibb.co/L6GQ63M/Games-Store-Img.png",
+    "description": "A videogames store, where user can watch and buy videogames. Was made using Free-to-Play Games API By Digiwalls Media",
+    "name": "Videogames store",
+    "techs": ["Axios", "SCSS", "React JS", "Redux"],
+    "githubLink": "https://github.com/KolesnikovAndrew/gamesStoreProject",
+    "demo": "https://kolesnikovandrew.github.io/gamesStoreProject/"
+  },
+  {
+    "image": "https://i.ibb.co/0CkRTHq/GetPost.png",
+    "description": "Simple single page app, where user can browse all registered users and register new user.",
+    "name": "Get/Post requests",
+    "techs": ["SASS", "React JS", "Redux", "RestAPI", "axios"],
+    "githubLink": "https://github.com/KolesnikovAndrew/abzagencytest",
+    "demo": "https://kolesnikovandrew.github.io/abzagencytest/"
+  }
+]

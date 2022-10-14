@@ -47,7 +47,9 @@ export const Project: FC<ProjectProps> = ({
             </div>
             <p>Check out the code!</p>
           </a>
-          <div>{demo && <DemoButton demo={demo} />}</div>
+          <div className={styles.demoLinkContainer}>
+            {demo && <DemoButton demo={demo} />}
+          </div>
         </div>
       </div>
     </div>

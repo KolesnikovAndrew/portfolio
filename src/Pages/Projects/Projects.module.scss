@@ -5,16 +5,25 @@ $yellow: #e4e003;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  padding-bottom: 50px;
   background-color: $blue;
   z-index: 1;
 }
+
 .projects h1 {
   color: rgb(68, 66, 66);
   margin: 0;
   padding: 20px;
   width: 100%;
   background-color: transparent !important;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .techSort {
