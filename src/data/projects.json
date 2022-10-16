@@ -32,11 +32,11 @@
     "demo": "https://kolesnikovandrew.github.io/abzagencytest/"
   },
   {
-    "image": "",
+    "image": "https://i.ibb.co/KhsSGRK/Screenshot-4.png",
     "description": "Page layout with rotating menu",
     "name": "Pizza Restaraunt",
     "techs": ["SCSS", "JS", "HTML5", "CSS3"],
     "githubLink": "https://github.com/KolesnikovAndrew/Pizza-Delivery",
-    "demo": ""
+    "demo": "https://kolesnikovandrew.github.io/Pizza-Delivery/dist/"
   }
 ]
