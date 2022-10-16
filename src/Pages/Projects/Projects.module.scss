@@ -52,6 +52,11 @@ $yellow: #e4e003;
   z-index: 0;
 }
 
+.bgTriangle button {
+  background-color: transparent;
+  border: none;
+}
+
 .bgTriangleLeft {
   width: 400px;
   height: 400px;

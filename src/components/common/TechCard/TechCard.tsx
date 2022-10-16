@@ -12,9 +12,7 @@ export const TechCard: FC<TechCardProps> = ({ icon, text }) => {
   return (
     <div
       className={active ? styles.techCardActive : styles.techCard}
-      onClick={() => {
-        setActive(!active);
-      }}
+      onClick={() => setActive(!active)}
     >
       <span className={styles.icon}>{icon}</span>
       <h5 className={styles.skillName}>{text}</h5>
