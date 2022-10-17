@@ -38,5 +38,13 @@
     "techs": ["SCSS", "JS", "HTML5", "CSS3"],
     "githubLink": "https://github.com/KolesnikovAndrew/Pizza-Delivery",
     "demo": "https://kolesnikovandrew.github.io/Pizza-Delivery/dist/"
+  },
+  {
+    "image": "https://i.ibb.co/z5RfZtR/Screenshot-5.png",
+    "description": "Portfolio with my projects.",
+    "name": "Portfolio",
+    "techs": ["SCSS", "TS", "HTML5", "CSS3", "React"],
+    "githubLink": "https://github.com/KolesnikovAndrew/portfolio",
+    "demo": "https://kolesnikovandrew.github.io/portfolio/"
   }
 ]
