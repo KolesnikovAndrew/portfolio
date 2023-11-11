@@ -3,7 +3,7 @@
     "image": "https://i.ibb.co/hXJXyJf/todoList.png",
     "description": "Todo List. User can add, delete or edit tasks. As well as can add or delete lists of todo tasks.",
     "name": "Todo List",
-    "techs": ["TailwindCSS", "React"],
+    "techs": ["TailwindCSS", "React", "Redux"],
     "githubLink": "https://github.com/KolesnikovAndrew/to-do-list",
     "demo": "https://kolesnikovandrew.github.io/to-do-list/"
   },

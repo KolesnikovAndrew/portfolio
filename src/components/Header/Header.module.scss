@@ -18,9 +18,8 @@ $yellow: #fffb00;
 
 .backgroundImage {
   padding: 100px;
-  background-color: $blue;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thegreatcoursesdaily.com%2Fwp-content%2Fuploads%2F2020%2F07%2FAncient-Greece_Relaxing-Style-of-Life-in-Athens_QBS_Thumbnail.jpg&f=1&nofb=1");
+  background-color: rgb(68, 68, 68);
+
   background-size: cover;
   height: 120vw;
   background-position: center;
